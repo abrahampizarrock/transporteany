@@ -1,0 +1,80 @@
+
+<div class= "container">
+    <div id="inicio" class="seccion">
+        <div class="imagen-fondo">
+            <h1 class="tituloinicio">NUESTRA EMPRESA</h1>
+            <h3 class="reseña">reseña empresa..........</h3>
+        </div>
+    </div>
+    <div id="fotos" class="seccion">
+        <br>
+        <h1 class="titulofoto">FOTOS</h1>
+        <br>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <%= image_tag "furgonblanco1.jpg", class:"d-block w-100" %>
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Traslado de Personal</h5>
+                <p>Somos los mas mejores de chile.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <%= image_tag "furgonblanco2.jpg", class:"d-block w-100" %>
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Transporte de pasajeros</h5>
+                <p>Cotize con nosotros</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "furgoninterior1.jpg", class:"d-block w-100" %>
+              <div class="carousel-caption d-none d-md-block">
+              <h5>Transporte Personal</h5>
+              <p>Contamos con vehiculos comodos de ultima generacion.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <%= image_tag "tiradura.jpg", class:"d-block w-100" %>
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Transporte de Pasajeros</h5>
+                <p>Cotiza con nosotros eventos, fiestas costumbristas, paseos, aeropuerto, etc.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div id="destinos" class="seccion">
+        <br>
+        <h1 class="titulodestino">DESTINOS</h1>
+        <br>
+        <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <%= image_tag "muelledelasalmas", class:"d-block w-100" %>
+                </div>
+                <div class="carousel-item">
+                  <%= image_tag "palafito7.jpg", class:"d-block w-100" %>
+                </div>
+                <div class="carousel-item">
+                  <%= image_tag "palafitos3.jpg", class:"d-block w-100" %>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+    </div>
+</div>
